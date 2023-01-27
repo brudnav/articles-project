@@ -1,0 +1,5 @@
+
+body{
+    width: calc(100vw - 100px);
+    margin: 10px auto;
+}
