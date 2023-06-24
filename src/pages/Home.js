@@ -36,7 +36,7 @@ function Home() {
           title: decodeHTMLEntities(article.title.rendered),
           date: formatDate(article.date),
           link: article.link,
-          author: article?.parselyMeta["parsely-author"]
+          author: article?._links.author.href
         }
       )
     })
